@@ -13,7 +13,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
-  <title>Contact</title>
+  <title>About</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -42,7 +42,7 @@
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="index.html">
-              <span style="background-color: #183d00;">
+              <span>
                 HAPPY AGRO
               </span>
             </a>
@@ -55,14 +55,14 @@
                 <li class="nav-item ">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About</a>
+                <li class="nav-item active">
+                  <a class="nav-link" href="about.html"style="background-color: #183d00;"> About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="service.html"> Services </a>
                 </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="contact.html" style="background-color: #183d00;">Contact us</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact us</a>
                 </li>
               </ul>
             </div>
@@ -73,55 +73,36 @@
     <!-- end header section -->
   </div>
 
-  <!-- contact section -->
+  <!-- about section -->
 
-  <section class="contact_section layout_padding">
-    <div class="contact_bg_box">
-      <div class="img-box">
-        <img src="images/contact-bg.jpg" alt="">
-      </div>
-    </div>
+  <section class="about_section layout_padding">
     <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Get In touch
-        </h2>
-      </div>
       <div class="">
-        <div class="row">
-          <div class="col-md-7 mx-auto">
-            <form action="#">
-              <div class="contact_form-container">
-                <div>
-                  <div>
-                    <input type="text" placeholder="Full Name" />
-                  </div>
-                  <div>
-                    <input type="email" placeholder="Email " />
-                  </div>
-                  <div>
-                    <input type="text" placeholder="Phone Number" />
-                  </div>
-                  <div class="">
-                    <input type="text" placeholder="Message" class="message_input" />
-                  </div>
-                  <div class="btn-box ">
-                    <button type="submit">
-                      Send
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
+        <div class="heading_container heading_center">
+          <h2>
+            Who Are We?
+          </h2>
+        </div>
+        <div class="img-box col-md-7 px-0 mx-auto">
+          <img src="images/about-img.jpg" alt="" />
+        </div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, quo ab ipsum neque sint delectus recusandae veniam eius mollitia fuga eveniet voluptates ex nostrum! Explicabo maiores aliquam accusamus dolorem obcaecati.
+          Velit, exercitationem at. Sit aperiam magni nostrum esse ipsam nemo amet ab. Sint quidem modi aliquam aspernatur iusto vitae alias. Fuga commodi assumenda labore nemo quis nam beatae deserunt error.
+          Pariatur ratione molestiae, quam delectus sed at nam debitis vel veritatis necessitatibus sint impedit.
+        </p>
+        <div class="btn-box">
+          <a href="">
+            Read More
+          </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- end contact section -->
+  <!-- end about section -->
 
-  <!-- info section -->
+ <!-- info section -->
   <section class="info_section " style="background-color: #183d00;">
     <div class="container">
       <div class="row">

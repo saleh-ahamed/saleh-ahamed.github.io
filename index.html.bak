@@ -36,6 +36,7 @@
     <div class="hero_bg_box">
       <img src="images/hero-bg.jpg" alt="">
     </div>
+   
 
     <header class="header_section">
       <div class="header_bottom">
@@ -53,10 +54,10 @@
             <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html" style="background-color: #183d00;">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About</a>
+                  <a class="nav-link" href="about.html" > About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="service.html"> Services </a>
@@ -72,7 +73,7 @@
     </header>
     <!-- end header section -->
     <!-- slider section -->
-    <section class=" slider_section ">
+    <!-- <section class=" slider_section ">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -90,7 +91,7 @@
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn-1"> Read more </a>
-                      <a href="" class="btn-2">Contact Us</a>
+                      <a href="" class="btn-2" style="background-color: #183d00;">Contact Us</a>
                     </div>
                   </div>
                 </div>
@@ -112,7 +113,7 @@
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn-1"> Read more </a>
-                      <a href="" class="btn-2">Contact Us</a>
+                      <a href="" class="btn-2"style="background-color: #183d00;">Contact Us</a>
                     </div>
                   </div>
                 </div>
@@ -134,7 +135,7 @@
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn-1"> Read more </a>
-                      <a href="" class="btn-2">Contact Us</a>
+                      <a href="" class="btn-2"style="background-color: #183d00;">Contact Us</a>
                     </div>
                   </div>
                 </div>
@@ -150,7 +151,8 @@
           </ol>
         </div>
       </div>
-    </section>
+    </section> -->
+    
     <!-- end slider section -->
   </div>
 
@@ -173,7 +175,7 @@
           Pariatur ratione molestiae, quam delectus sed at nam debitis vel veritatis necessitatibus sint impedit.
         </p>
         <div class="btn-box">
-          <a href="">
+          <a href="" style="background-color: #183d00;">
             Read More
           </a>
         </div>
@@ -185,7 +187,7 @@
 
   <!-- service section -->
 
-  <section class="service_section layout_padding">
+  <section class="service_section layout_padding" style="background-color: #183d00;">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
@@ -200,7 +202,7 @@
             </div>
             <div class="detail-box">
               <h6>
-                Garden Care
+                Beef Fattening
               </h6>
               <p>
                 Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
@@ -218,7 +220,7 @@
             </div>
             <div class="detail-box">
               <h6>
-                Planting
+                Milking
               </h6>
               <p>
                 Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
@@ -236,7 +238,7 @@
             </div>
             <div class="detail-box">
               <h6>
-                Lawn Care
+                Fish Cultivation
               </h6>
               <p>
                 Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
@@ -254,7 +256,7 @@
             </div>
             <div class="detail-box">
               <h6>
-                Rubbish Removal
+                Hertusture Unit
               </h6>
               <p>
                 Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
@@ -342,7 +344,7 @@
                     <input type="text" placeholder="Message" class="message_input" />
                   </div>
                   <div class="btn-box ">
-                    <button type="submit">
+                    <button type="submit" style="background-color: #183d00;">
                       Send
                     </button>
                   </div>
@@ -358,62 +360,61 @@
   <!-- end contact section -->
 
 
-  <!-- client section -->
+   <!-- Gallry section -->
 
-  <section class="client_section layout_padding">
+  <section class="team_section layout_padding">
     <div class="container">
-      <div class="heading_container heading_center psudo_white_primary mb_45">
+      <div class="heading_container heading_center">
         <h2>
-          Testimonial
+          Photo Gallry
         </h2>
+        <p>
+          Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla mauris
+          iaculis. Erat eget vitae malesuada, tortor tincidunt porta lorem lectus.
+        </p>
       </div>
-      <div class="carousel-wrap row ">
-        <div class="owl-carousel client_owl-carousel">
-          <div class="item">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/c1.jpg" alt="" class="box-img">
-              </div>
-              <div class="detail-box">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                </p>
-                <h6>
-                  Klara Smith
-                </h6>
-                <p>
-                  magna aliqua
-                </p>
-              </div>
+      <div class="row">
+        <div class="col-xl-3 col-sm-6 ">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Happy_Agro4.jpg" alt="">
             </div>
           </div>
-          <div class="item">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/c2.jpg" alt="" class="box-img">
-              </div>
-              <div class="detail-box">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                </p>
-                <h6>
-                  Henry Buffet
-                </h6>
-                <p>
-                  magna aliqua
-                </p>
-              </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 ">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Happy_Agro2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 ">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Happy_Agro4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 ">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Happy_Agro5.jpg" alt="">
             </div>
           </div>
         </div>
       </div>
+      <div class="btn-box">
+        <a href="">
+          View All
+        </a>
+      </div>
     </div>
   </section>
 
-  <!-- end client section -->
+  <!-- end team section -->
 
   <!-- info section -->
-  <section class="info_section ">
+  <section class="info_section " style="background-color: #183d00;">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-3">
@@ -491,7 +492,7 @@
             </h5>
             <form action="#">
               <input type="email" placeholder="Enter your email">
-              <button>
+              <button style="background-color: #183d00;">
                 Subscribe
               </button>
             </form>
@@ -521,7 +522,7 @@
 
 
   <!-- footer section -->
-  <footer class="container-fluid footer_section">
+  <footer class="container-fluid footer_section" style="background-color: #183d00e6;">
     <p>
       &copy; <span id="currentYear"></span> All Rights Reserved
     </p>
@@ -534,6 +535,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
   <script src="js/custom.js"></script>
+  
 </body>
 
 </html>
