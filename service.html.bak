@@ -13,7 +13,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
-  <title>Orgarden</title>
+  <title>Services</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -32,18 +32,18 @@
 
 <body class="sub_page">
   <div class="hero_area">
+    <!-- header section strats -->
     <div class="hero_bg_box">
       <img src="images/hero-bg.jpg" alt="">
     </div>
 
-    <!-- header section strats -->
     <header class="header_section">
       <div class="header_bottom">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="index.html">
               <span>
-                Orgarden
+                Happy AGRO
               </span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,13 +58,10 @@
                 <li class="nav-item">
                   <a class="nav-link" href="about.html"> About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="service.html"> Services </a>
                 </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="gardener.html"> Gardeners </a>
-                </li>
-                <li class="nav-item ">
+                <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact us</a>
                 </li>
               </ul>
@@ -76,156 +73,139 @@
     <!-- end header section -->
   </div>
 
-  <!-- team section -->
+  <!-- service section -->
 
-  <section class="team_section layout_padding">
+  <section class="service_section layout_padding" style="background-color: #183d00;">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Our Gardeners
+          Our services
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla mauris
-          iaculis. Erat eget vitae malesuada, tortor tincidunt porta lorem lectus.
-        </p>
       </div>
       <div class="row">
-        <div class="col-xl-3 col-sm-6 ">
-          <div class="box">
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
             <div class="img-box">
-              <img src="images/t1.jpg" alt="">
-            </div>
-            <div class="social_box">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-              </a>
+              <img src="images/s1.png" alt="">
             </div>
             <div class="detail-box">
-              <h5>
-                Martin Anderson
-              </h5>
-              <h6 class="">
-                supervisor
+              <h6>
+                Beef Fattening
               </h6>
+              <p>
+                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+              </p>
+              <a href="">
+                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6 ">
-          <div class="box">
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
             <div class="img-box">
-              <img src="images/t2.jpg" alt="">
-            </div>
-            <div class="social_box">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-              </a>
+              <img src="images/s2.png" alt="">
             </div>
             <div class="detail-box">
-              <h5>
-                Denny Butler
-              </h5>
-              <h6 class="">
-                supervisor
+              <h6>
+                Milking
               </h6>
+              <p>
+                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+              </p>
+              <a href="">
+                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6 ">
-          <div class="box">
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
             <div class="img-box">
-              <img src="images/t3.jpg" alt="">
-            </div>
-            <div class="social_box">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-              </a>
+              <img src="images/s3.png" alt="">
             </div>
             <div class="detail-box">
-              <h5>
-                Nathan Mcpherson
-              </h5>
-              <h6 class="">
-                supervisor
+              <h6>
+                Fish Cultivation
               </h6>
+              <p>
+                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+              </p>
+              <a href="">
+                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6 ">
-          <div class="box">
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
             <div class="img-box">
-              <img src="images/t4.jpg" alt="">
-            </div>
-            <div class="social_box">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-              </a>
+              <img src="images/s4.png" alt="">
             </div>
             <div class="detail-box">
-              <h5>
-                Nathan Mcpherson
-              </h5>
-              <h6 class="">
-                supervisor
+              <h6>
+                Hertusture Unit
               </h6>
+              <p>
+                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+              </p>
+              <a href="">
+                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="btn-box">
-        <a href="">
-          View All
-        </a>
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/s5.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>
+                Lawn Moving
+              </h6>
+              <p>
+                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+              </p>
+              <a href="">
+                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/s6.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>
+                Watering Garder
+              </h6>
+              <p>
+                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+              </p>
+              <a href="">
+                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- end team section -->
+  <!-- end service section -->
 
-  <!-- info section -->
-  <section class="info_section ">
+ <!-- info section -->
+  <section class="info_section " style="background-color: #183d00;">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-3">
           <div class="info_logo">
             <a class="navbar-brand" href="index.html">
               <span>
-                Orgarden
+                HAPPY AGRO
               </span>
             </a>
             <p>
@@ -272,7 +252,7 @@
             <a href="" class="">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
               <span>
-                Lorem ipsum dolor sit amet,
+                House 13, Road 113/A, Gulshan-2, Dhaka-1212
               </span>
             </a>
             <a href="" class="">
@@ -284,7 +264,7 @@
             <a href="" class="">
               <i class="fa fa-envelope" aria-hidden="true"></i>
               <span>
-                demo@gmail.com
+                mmalam.hcl@gmail.com
               </span>
             </a>
           </div>
@@ -296,7 +276,7 @@
             </h5>
             <form action="#">
               <input type="email" placeholder="Enter your email">
-              <button>
+              <button style="background-color: #183d00;">
                 Subscribe
               </button>
             </form>
@@ -326,10 +306,9 @@
 
 
   <!-- footer section -->
-  <footer class="container-fluid footer_section">
+  <footer class="container-fluid footer_section" style="background-color: #183d00e6;">
     <p>
-      &copy; <span id="currentYear"></span> All Rights Reserved. Design by
-      <a href="https://html.design/">Free Html Templates</a>
+      &copy; <span id="currentYear"></span> All Rights Reserved
     </p>
   </footer>
   <!-- footer section -->
